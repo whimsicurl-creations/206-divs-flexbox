@@ -106,12 +106,18 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-image: url("../img/bkgd.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
+  height: 100%;
   justify-content: space-between;
+  align-items: center;
   font-weight: 700;
 }
 
@@ -123,9 +129,9 @@ body {
   width: 30%;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1.1em;
+  background-color:rgba(0, 51, 0, .8);
+  height: 250px;
 }
 
 
