@@ -105,7 +105,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1.25em;
-  height: 100%;
+  height: 90%;
   background-image: url("../img/bkgd.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -115,10 +115,22 @@ body {
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
+  flex-flow: row wrap;
   height: 100%;
   justify-content: space-between;
   align-items: center;
   font-weight: 700;
+}
+
+header, main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    line-height: 1.5em;
+    background-color: rgba(0, 51, 0,.8);
+    border-radius: 20px;
+    padding-left: 20px;
 }
 
 .div-1, .div-2, .div-3 {
@@ -132,6 +144,20 @@ body {
   font-size: 1.1em;
   background-color:rgba(0, 51, 0, .8);
   height: 250px;
+  border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    background-color: rgba(0, 51, 0, .8);
+    border-radius: 20px;
+    height: 150px;
 }
 
 
